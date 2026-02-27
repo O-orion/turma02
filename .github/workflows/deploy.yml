@@ -27,7 +27,7 @@ jobs:
             
             - name: Build da Image
               run: |
-                   docker build -t ghcr.io/o-orion/aula-turma02:latest
+                   docker build -t ghcr.io/o-orion/aula-turma02:latest .
 
             - name: Push pro Ghcr
               run: |
