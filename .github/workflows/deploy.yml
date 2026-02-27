@@ -27,11 +27,11 @@ jobs:
             
             - name: Build da Image
               run: |
-                   docker build -t ghcr.io/o-orion/aula-turma02:latest .
+                   docker build -t ghcr.io/o-orion/aulaturma02:latest .
 
             - name: Push pro Ghcr
               run: |
-                  docker push ghcr.io/o-orion/aula-turma02:latest
+                  docker push ghcr.io/o-orion/aulaturma02:latest
             - name: Cria o .env na VM
               run: |
                 cat > .env << EOF
